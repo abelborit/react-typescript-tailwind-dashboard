@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  /* para que pueda reconocer el tema claro o tema oscuro */
+  darkMode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -11,12 +13,12 @@ export default {
         Twitter: "hsl(203, 89%, 53%)",
         YouTube: "hsl(348, 97%, 39%)",
         Toggle: "hsl(230, 22%, 74%)",
-        "Very-Dark-Blue": "hsl(230, 17%, 14%)",
+        "Very-Dark-Blue": "hsl(230, 22%, 19%)",
         "Very-Dark-Blue-Top": "hsl(232, 19%, 15%)",
         "Dark-Desaturated-Blue": "hsl(228, 28%, 20%)",
         "Desaturated-Blue": "hsl(228, 34%, 66%)",
         White: "hsl(0, 0%, 100%)",
-        "Very-Pale-Blue": "hsl(225, 100%, 98%)",
+        "Very-Pale-Blue": "hsl(225, 100%, 97%)",
         "Light-Grayish-Blue": "hsl(227, 47%, 96%)",
         "Dark-Grayish-Blue": "hsl(228, 12%, 44%)",
       },
