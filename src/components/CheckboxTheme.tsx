@@ -40,7 +40,7 @@ export const CheckboxTheme = () => {
         {/* cuando se necesite diseñar un elemento según el estado de un elemento hermano hay que marcar el hermano con la clase peer y usar modificadores peer-* para diseñar el elemento de destino */}
         {/* usar el sr-only son clases para mantener como oculto el elemento, en este caso el checkbox */}
         <input
-          onClick={handleChangeTheme}
+          onChange={handleChangeTheme}
           type="checkbox"
           id="darkmode"
           className="peer sr-only"
