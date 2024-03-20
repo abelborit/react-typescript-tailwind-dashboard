@@ -1,4 +1,14 @@
-# React & TypeScript & Tailwind - Dashboard
+# React & TypeScript & Tailwind - Dashboard Project
+
+---
+
+Este proyecto contiene:
+
+- TypeScript
+- CSS usando Tailwind
+- Dark Mode usando Tailwind
+- Insertar una fuente de texto para el proyecto
+- LazyComponent (solo carga los elementos hijos que están en la ventana visible del navegador lo que mejora el rendimiento al reducir la carga inicial de la página)
 
 ---
 
