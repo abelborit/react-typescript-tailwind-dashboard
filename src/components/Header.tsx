@@ -3,7 +3,7 @@ import { CheckboxTheme } from "./CheckboxTheme";
 export const Header = () => {
   return (
     <header className="bg-Very-Pale-Blue dark:bg-Very-Dark-Blue h-[260px] rounded-b-[20px] pt-8 px-6 shadow-md">
-      <h1 className="text-Very-Dark-Blue dark:text-Very-Pale-Blue text-2xl font-bold mb-1">
+      <h1 className="text-Very-Dark-Blue dark:text-Very-Pale-Blue text-3xl font-bold mb-1">
         Social Media Dashboard
       </h1>
       <p className="text-Dark-Grayish-Blue dark:text-Desaturated-Blue text-sm font-bold">
