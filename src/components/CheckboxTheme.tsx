@@ -29,7 +29,7 @@ export const CheckboxTheme = () => {
   }, [isThemeDark]);
 
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between sm:justify-end sm:gap-4">
       <p className="text-Dark-Grayish-Blue dark:text-Desaturated-Blue font-bold">
         Dark Mode
       </p>

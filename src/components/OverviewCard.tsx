@@ -95,7 +95,7 @@ export const OverviewCard = ({ overviewInfo }: OverviewCardProps) => {
   };
 
   return (
-    <div className="bg-Light-Grayish-Blue dark:bg-Dark-Desaturated-Blue w-[265px] h-[215px] rounded-lg overflow-hidden mx-auto shadow-md hover:brightness-95 hover:dark:brightness-125 hover:scale-105 transition-all cursor-pointer">
+    <div className="bg-Light-Grayish-Blue dark:bg-Dark-Desaturated-Blue w-full max-w-[300px] h-[215px] rounded-lg overflow-hidden mx-auto shadow-md hover:brightness-95 hover:dark:brightness-125 hover:scale-105 transition-transform cursor-pointer">
       {/* borde superior (se está añadiendo clases de forma dinámica) */}
       <div className={`${networkColor} h-1`}></div>
 

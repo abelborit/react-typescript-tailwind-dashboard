@@ -7,8 +7,11 @@ function App() {
   return (
     <>
       <Header />
-      <OverviewContainer />
-      <OverviewTodayContainer />
+
+      <div className="max-w-[1440px] mx-auto px-5 mt-[-45px] mb-10 md:mt-[-55px]">
+        <OverviewContainer />
+        <OverviewTodayContainer />
+      </div>
     </>
   );
 }
