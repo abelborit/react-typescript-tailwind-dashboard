@@ -5,7 +5,7 @@
       "network": "Facebook",
       "user": "@nathanf",
       "audienceType": "followers",
-      "audience": 1987,
+      "audience": 8973,
       "today": 12,
       "isUp": true
     },
@@ -14,16 +14,16 @@
       "network": "Twitter",
       "user": "@nathanf",
       "audienceType": "followers",
-      "audience": 1044,
+      "audience": 10445,
       "today": 99,
-      "isUp": true
+      "isUp": false
     },
     {
       "id": "o-003",
       "network": "Instagram",
       "user": "@realnathanf",
       "audienceType": "followers",
-      "audience": 11000,
+      "audience": 2154556,
       "today": 1099,
       "isUp": true
     },
@@ -32,7 +32,7 @@
       "network": "YouTube",
       "user": "Nathan F.",
       "audienceType": "subscribers",
-      "audience": 8239,
+      "audience": 11348668649,
       "today": 144,
       "isUp": false
     }
