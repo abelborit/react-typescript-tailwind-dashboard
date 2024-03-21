@@ -11,7 +11,8 @@
 @tailwind utilities;
 
 /* añadir importando una fuente usando "@font-face{....}" desde los archivos locales. Faltaría usarlo y eso se haría en el archivo de configuración de tailwind que es el tailwind.config.js */
+/* En la regla @font-face de CSS, la función format() se utiliza para especificar el formato de la fuente que se está utilizando. El argumento que se pasa a format() indica el tipo de formato de la fuente. El valor 'truetype' en format('truetype') indica que la fuente está en formato TrueType (.ttf). TrueType es un formato de fuente de contorno que se utiliza comúnmente en la web y es compatible con la mayoría de los navegadores modernos. */
 @font-face {
   font-family: "Inter";
-  src: url(./assets/fonts/Inter-VariableFont_slnt_wght.ttf);
+  src: url(./assets/fonts/Inter-VariableFont_slnt_wght.ttf) format("truetype");
 }

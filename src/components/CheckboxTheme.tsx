@@ -20,6 +20,7 @@ export const CheckboxTheme = () => {
       document.documentElement.classList.add("dark");
     } else {
       document.documentElement.classList.remove("dark");
+      localStorage.removeItem("isThemeDark");
     }
 
     /* se podría incluir una limpieza para eliminar la clase dark del elemento document.documentElement cuando el componente se desmonte y como se tiene guardada la referencia en el localStorage entonces cada que se monte solo se pediría desde el localStorage */
