@@ -2,6 +2,8 @@
 
 ---
 
+Link proyecto: https://abelborit.github.io/react-typescript-tailwind-dashboard/
+
 Este proyecto contiene:
 
 - TypeScript
